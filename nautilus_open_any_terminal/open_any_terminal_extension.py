@@ -11,6 +11,8 @@ try:
 except ImportError:
     from urllib.parse import unquote, urlparse
 
+print("source nautilus-open-any-terminal-extension")
+
 from gi import require_version
 
 require_version("Gtk", "3.0")
